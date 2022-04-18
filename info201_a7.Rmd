@@ -1,0 +1,59 @@
+---
+title: "Info201_a7"
+output: html_document
+---
+```{r init, include=FALSE}
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(error=TRUE)
+```
+
+```{r include=FALSE}
+dataset <- read.csv("data/UFOCoords.csv", stringsAsFactors = FALSE)
+source("benchmark_test_load.R")
+source("scripts/summary.R")
+source("scripts/b_chart.R")
+ret <- describeData(dataset)
+
+```
+
+
+# Function Timing
+
+We have compared a dyplr function 'filter' with the R basic indexing.
+We used 'microbenchmark()' function from the microbenchmark package to
+compare the speed of the two functions in sub-millisecond (supposedly nanoseconds).
+
+We compared the the two functions on 4 computers with different processors.
+Comparing each function in a pair of one trial, it is evident that the index
+method is faster than the filter method by almost two digits.
+
+Comparing each trial to each other, we observed that computers with faster processors have
+faster speed in both regards (The fasters computer we have was computer #2).
+
+```{r echo=FALSE}
+knitr::kable(all)
+
+```
+
+# UFO Sightings
+
+##A paragraph of summary information
+The National UFO Research Center collects and serves over `r ret$reports` reports of UFO sightings in North America in the year 2016.
+
+This dataset contains the report content itself including the time, location duration, and other attributes in both the raw form as it is recorded on the NUFORC site as well as a refined, standardized form that also contains lat/lon coordinates. 
+
+The total number of UFO signtings in the United States of America in 2016 was `r ret$USA`, and the number of sightings in Washington state was `r ret$WA`.
+
+```{r echo=FALSE}
+
+ufo_shapes(dataset)
+ufo_us_states(dataset)
+
+```
+
+
+
+
+
+
