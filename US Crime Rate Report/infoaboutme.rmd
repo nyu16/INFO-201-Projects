@@ -1,0 +1,60 @@
+---
+title: "infoaboutme.rmd"
+output: html_document
+---
+## About the Team
+
+Being apart of the team also known as BC Boundless, we were very interested in developing constructive approaches to improving the quality of projects if and when needed. Building on best organizational practices as well as using R and Shiny App, which advocated many strategies.
+
+To see our other collaboration:
+https://github.com/info201b-wi2018/a7-collaboration-idomori
+
+For this project, we really wanted to create something that could be beneficial to our society and advocate for policy change. Through the use of governmental data of crime rates in New York, we felt that we could show how we are trending towards a more dangerous and crime ridden society. We hope this project can be used more than just for a class and provide an example of how we can start to understand the weaknesses in our society.
+
+## About the Team Members
+
+### Franklin Kong
+
+Class of 2020 at University of Washington, Seattle
+
+```{r}
+Franklin takes many actions to help a joint project succeed.
+With his focus on clear architecture, flexible coding, and a shared vision, he leverages his diverse skills and learning from across disciplines in service of the joint objective.
+```
+Want to know more? See the link here:
+https://github.com/idomori
+
+### Alanna Hu
+
+Class of 2018 at University of Washington, Seattle
+
+```{r}
+Alanna combines ideas for innovations in a spirit of creation, building on distinctive strengths of team members and constructive collaboration.
+Enhancing other's ideas by saying "and" rather than "but" leads to new synergies with members with different potentials/skills.
+```
+Want to know more? See the link here:
+https://github.com/alannahu
+
+### Margaret Hsiao
+
+Class of 2021 at University of Washington, Seattle
+
+```{r}
+Margaret focus collective energies on a meaningful task, a purposeful project, so as to find informations for sharing.
+By setting boundaries for collaboration, she makes sure that valuable resources can be made available and used effectively without fear of misuse or wasted effort.
+```
+Want to know more? See the link here:
+https://github.com/margarethsiao
+
+### Nick Yu
+
+Class of 2020 at University of Washington, Seattle
+
+```{r}
+Nick makes commitments to work on a shared project, with joint stakes in the outcomes, to foster mutual trust with an orientation toward the future.
+His key focus is to make mutual commitments to carry out projects for joined gain. No matter the problem or obstacle, Nick actively aids and researches to provide useful tips to all members.
+```
+Want to know more? See the link here:
+https://github.com/ahmuola  
+<br>
+##### Exemplified in the actions and collaboration of all team members, we have each understood and learned that through good communication and playing off the strengths of one another, we work better in combination rather than alone to achieve success in all that we do. The closer alignment among people when implementing a strategy or developing a strategic alliance relies on trust of team members and effective communication.  We created face-to-face encounters so that bridges can be built and deep dialogue takes place to produce a better environment to code and design.
